@@ -1,0 +1,911 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A923AC741D676F7E00595E1F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A923AC731D676F7E00595E1F /* main.m */; };
+		A923AC771D676F7E00595E1F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A923AC761D676F7E00595E1F /* AppDelegate.m */; };
+		A923AC7F1D676F7E00595E1F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A923AC7E1D676F7E00595E1F /* Assets.xcassets */; };
+		A923AC8D1D676F7E00595E1F /* MZDotaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A923AC8C1D676F7E00595E1F /* MZDotaTests.m */; };
+		A923AC981D676F7E00595E1F /* MZDotaUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A923AC971D676F7E00595E1F /* MZDotaUITests.m */; };
+		A923ACC31D6781B400595E1F /* MZTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = A923ACC01D6781B400595E1F /* MZTabBarController.m */; };
+		A923ACCE1D67822700595E1F /* MZDataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A923ACCD1D67822700595E1F /* MZDataViewController.m */; };
+		A923ACD11D67823E00595E1F /* MZProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A923ACD01D67823E00595E1F /* MZProfileViewController.m */; };
+		A923ACD41D67825300595E1F /* MZLiveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A923ACD31D67825300595E1F /* MZLiveViewController.m */; };
+		A923ACD71D67826900595E1F /* MZForecastViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A923ACD61D67826900595E1F /* MZForecastViewController.m */; };
+		A923ACDA1D67827E00595E1F /* MZDiscoverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A923ACD91D67827E00595E1F /* MZDiscoverViewController.m */; };
+		A923ACDD1D6783F000595E1F /* MZNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = A923ACDC1D6783F000595E1F /* MZNavigationController.m */; };
+		A923ACE41D6858D000595E1F /* MZMatchHistoryTool.m in Sources */ = {isa = PBXBuildFile; fileRef = A923ACE31D6858D000595E1F /* MZMatchHistoryTool.m */; };
+		A923ACEA1D685D7B00595E1F /* MZMatch.m in Sources */ = {isa = PBXBuildFile; fileRef = A923ACE91D685D7B00595E1F /* MZMatch.m */; };
+		A923ACED1D6868BC00595E1F /* MZMatchDetailsTool.m in Sources */ = {isa = PBXBuildFile; fileRef = A923ACEC1D6868BC00595E1F /* MZMatchDetailsTool.m */; };
+		A923ACF01D686C4700595E1F /* MZPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = A923ACEF1D686C4700595E1F /* MZPlayer.m */; };
+		A923ACF61D6ACC7F00595E1F /* MZProfileCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A923ACF51D6ACC7F00595E1F /* MZProfileCell.m */; };
+		A923ACF81D6ACCD800595E1F /* MZProfileCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A923ACF71D6ACCD800595E1F /* MZProfileCell.xib */; };
+		A923ACFB1D6B042900595E1F /* MZMatchDetailsController.m in Sources */ = {isa = PBXBuildFile; fileRef = A923ACFA1D6B042900595E1F /* MZMatchDetailsController.m */; };
+		A923ACFE1D6B155B00595E1F /* MZMatchDetail.m in Sources */ = {isa = PBXBuildFile; fileRef = A923ACFD1D6B155B00595E1F /* MZMatchDetail.m */; };
+		A923AD001D6B1AAD00595E1F /* MZMatchDetailCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A923ACFF1D6B1AAD00595E1F /* MZMatchDetailCell.xib */; };
+		A923AD031D6B1AE300595E1F /* MZMatchDetailCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A923AD021D6B1AE300595E1F /* MZMatchDetailCell.m */; };
+		A923AD0B1D6D43EB00595E1F /* NSDate+date.m in Sources */ = {isa = PBXBuildFile; fileRef = A923AD0A1D6D43EB00595E1F /* NSDate+date.m */; };
+		A923AD141D6D9EF800595E1F /* MZHeroesAndItemsTool.m in Sources */ = {isa = PBXBuildFile; fileRef = A923AD131D6D9EF800595E1F /* MZHeroesAndItemsTool.m */; };
+		A923AD171D6DA0C300595E1F /* MZHeroesAndItemsCacheTool.m in Sources */ = {isa = PBXBuildFile; fileRef = A923AD161D6DA0C300595E1F /* MZHeroesAndItemsCacheTool.m */; };
+		A984FC831D7043A300A5BE6D /* MZUser.m in Sources */ = {isa = PBXBuildFile; fileRef = A984FC821D7043A300A5BE6D /* MZUser.m */; };
+		E70D8F4D2B37B1C4F3B2878A /* libPods-MZDota.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 68B2EBB8DA827A35588A5158 /* libPods-MZDota.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A923AC891D676F7E00595E1F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A923AC671D676F7E00595E1F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A923AC6E1D676F7E00595E1F;
+			remoteInfo = MZDota;
+		};
+		A923AC941D676F7E00595E1F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A923AC671D676F7E00595E1F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A923AC6E1D676F7E00595E1F;
+			remoteInfo = MZDota;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		05E6B3A20FCADE63D7EEB0E2 /* Pods-MZDota.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MZDota.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MZDota/Pods-MZDota.debug.xcconfig"; sourceTree = "<group>"; };
+		38F6235883E116305309A14A /* Pods-MZDota.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MZDota.release.xcconfig"; path = "Pods/Target Support Files/Pods-MZDota/Pods-MZDota.release.xcconfig"; sourceTree = "<group>"; };
+		68B2EBB8DA827A35588A5158 /* libPods-MZDota.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MZDota.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A923AC6F1D676F7E00595E1F /* MZDota.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MZDota.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A923AC731D676F7E00595E1F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A923AC751D676F7E00595E1F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A923AC761D676F7E00595E1F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A923AC7E1D676F7E00595E1F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A923AC831D676F7E00595E1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A923AC881D676F7E00595E1F /* MZDotaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MZDotaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A923AC8C1D676F7E00595E1F /* MZDotaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MZDotaTests.m; sourceTree = "<group>"; };
+		A923AC8E1D676F7E00595E1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A923AC931D676F7E00595E1F /* MZDotaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MZDotaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A923AC971D676F7E00595E1F /* MZDotaUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MZDotaUITests.m; sourceTree = "<group>"; };
+		A923AC991D676F7E00595E1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A923ACBF1D6781B400595E1F /* MZTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MZTabBarController.h; sourceTree = "<group>"; };
+		A923ACC01D6781B400595E1F /* MZTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MZTabBarController.m; sourceTree = "<group>"; };
+		A923ACCC1D67822700595E1F /* MZDataViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MZDataViewController.h; sourceTree = "<group>"; };
+		A923ACCD1D67822700595E1F /* MZDataViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MZDataViewController.m; sourceTree = "<group>"; };
+		A923ACCF1D67823E00595E1F /* MZProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MZProfileViewController.h; sourceTree = "<group>"; };
+		A923ACD01D67823E00595E1F /* MZProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MZProfileViewController.m; sourceTree = "<group>"; };
+		A923ACD21D67825300595E1F /* MZLiveViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MZLiveViewController.h; sourceTree = "<group>"; };
+		A923ACD31D67825300595E1F /* MZLiveViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MZLiveViewController.m; sourceTree = "<group>"; };
+		A923ACD51D67826900595E1F /* MZForecastViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MZForecastViewController.h; sourceTree = "<group>"; };
+		A923ACD61D67826900595E1F /* MZForecastViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MZForecastViewController.m; sourceTree = "<group>"; };
+		A923ACD81D67827E00595E1F /* MZDiscoverViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MZDiscoverViewController.h; sourceTree = "<group>"; };
+		A923ACD91D67827E00595E1F /* MZDiscoverViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MZDiscoverViewController.m; sourceTree = "<group>"; };
+		A923ACDB1D6783F000595E1F /* MZNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MZNavigationController.h; sourceTree = "<group>"; };
+		A923ACDC1D6783F000595E1F /* MZNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MZNavigationController.m; sourceTree = "<group>"; };
+		A923ACE21D6858D000595E1F /* MZMatchHistoryTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MZMatchHistoryTool.h; sourceTree = "<group>"; };
+		A923ACE31D6858D000595E1F /* MZMatchHistoryTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MZMatchHistoryTool.m; sourceTree = "<group>"; };
+		A923ACE81D685D7B00595E1F /* MZMatch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MZMatch.h; sourceTree = "<group>"; };
+		A923ACE91D685D7B00595E1F /* MZMatch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MZMatch.m; sourceTree = "<group>"; };
+		A923ACEB1D6868BC00595E1F /* MZMatchDetailsTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MZMatchDetailsTool.h; sourceTree = "<group>"; };
+		A923ACEC1D6868BC00595E1F /* MZMatchDetailsTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MZMatchDetailsTool.m; sourceTree = "<group>"; };
+		A923ACEE1D686C4700595E1F /* MZPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MZPlayer.h; sourceTree = "<group>"; };
+		A923ACEF1D686C4700595E1F /* MZPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MZPlayer.m; sourceTree = "<group>"; };
+		A923ACF41D6ACC7F00595E1F /* MZProfileCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MZProfileCell.h; sourceTree = "<group>"; };
+		A923ACF51D6ACC7F00595E1F /* MZProfileCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MZProfileCell.m; sourceTree = "<group>"; };
+		A923ACF71D6ACCD800595E1F /* MZProfileCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MZProfileCell.xib; sourceTree = "<group>"; };
+		A923ACF91D6B042900595E1F /* MZMatchDetailsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MZMatchDetailsController.h; sourceTree = "<group>"; };
+		A923ACFA1D6B042900595E1F /* MZMatchDetailsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MZMatchDetailsController.m; sourceTree = "<group>"; };
+		A923ACFC1D6B155B00595E1F /* MZMatchDetail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MZMatchDetail.h; sourceTree = "<group>"; };
+		A923ACFD1D6B155B00595E1F /* MZMatchDetail.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MZMatchDetail.m; sourceTree = "<group>"; };
+		A923ACFF1D6B1AAD00595E1F /* MZMatchDetailCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MZMatchDetailCell.xib; sourceTree = "<group>"; };
+		A923AD011D6B1AE300595E1F /* MZMatchDetailCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MZMatchDetailCell.h; sourceTree = "<group>"; };
+		A923AD021D6B1AE300595E1F /* MZMatchDetailCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MZMatchDetailCell.m; sourceTree = "<group>"; };
+		A923AD091D6D43EB00595E1F /* NSDate+date.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+date.h"; sourceTree = "<group>"; };
+		A923AD0A1D6D43EB00595E1F /* NSDate+date.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+date.m"; sourceTree = "<group>"; };
+		A923AD121D6D9EF800595E1F /* MZHeroesAndItemsTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MZHeroesAndItemsTool.h; path = ../Profile/Modle/MZHeroesAndItemsTool.h; sourceTree = "<group>"; };
+		A923AD131D6D9EF800595E1F /* MZHeroesAndItemsTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MZHeroesAndItemsTool.m; path = ../Profile/Modle/MZHeroesAndItemsTool.m; sourceTree = "<group>"; };
+		A923AD151D6DA0C300595E1F /* MZHeroesAndItemsCacheTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MZHeroesAndItemsCacheTool.h; sourceTree = "<group>"; };
+		A923AD161D6DA0C300595E1F /* MZHeroesAndItemsCacheTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MZHeroesAndItemsCacheTool.m; sourceTree = "<group>"; };
+		A984FC811D7043A300A5BE6D /* MZUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MZUser.h; sourceTree = "<group>"; };
+		A984FC821D7043A300A5BE6D /* MZUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MZUser.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A923AC6C1D676F7E00595E1F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E70D8F4D2B37B1C4F3B2878A /* libPods-MZDota.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A923AC851D676F7E00595E1F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A923AC901D676F7E00595E1F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9CBB7A96746809332512933F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				05E6B3A20FCADE63D7EEB0E2 /* Pods-MZDota.debug.xcconfig */,
+				38F6235883E116305309A14A /* Pods-MZDota.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A923AC661D676F7E00595E1F = {
+			isa = PBXGroup;
+			children = (
+				A923AD081D6D43EB00595E1F /* Catergory */,
+				A923ACE11D68559400595E1F /* Tool */,
+				A923ACC81D6781E800595E1F /* Data */,
+				A923ACC41D6781CF00595E1F /* Profile */,
+				A923ACBD1D6781B400595E1F /* Main */,
+				A923ACB91D67817800595E1F /* Live */,
+				A923ACB51D67816E00595E1F /* Forecast */,
+				A923ACB11D67815E00595E1F /* Discover */,
+				A923AC711D676F7E00595E1F /* MZDota */,
+				A923AC8B1D676F7E00595E1F /* MZDotaTests */,
+				A923AC961D676F7E00595E1F /* MZDotaUITests */,
+				A923AC701D676F7E00595E1F /* Products */,
+				9CBB7A96746809332512933F /* Pods */,
+				E2493906E301AE51880F5020 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A923AC701D676F7E00595E1F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A923AC6F1D676F7E00595E1F /* MZDota.app */,
+				A923AC881D676F7E00595E1F /* MZDotaTests.xctest */,
+				A923AC931D676F7E00595E1F /* MZDotaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A923AC711D676F7E00595E1F /* MZDota */ = {
+			isa = PBXGroup;
+			children = (
+				A923AC751D676F7E00595E1F /* AppDelegate.h */,
+				A923AC761D676F7E00595E1F /* AppDelegate.m */,
+				A923AC7E1D676F7E00595E1F /* Assets.xcassets */,
+				A923AC831D676F7E00595E1F /* Info.plist */,
+				A923AC721D676F7E00595E1F /* Supporting Files */,
+			);
+			path = MZDota;
+			sourceTree = "<group>";
+		};
+		A923AC721D676F7E00595E1F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A923AC731D676F7E00595E1F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A923AC8B1D676F7E00595E1F /* MZDotaTests */ = {
+			isa = PBXGroup;
+			children = (
+				A923AC8C1D676F7E00595E1F /* MZDotaTests.m */,
+				A923AC8E1D676F7E00595E1F /* Info.plist */,
+			);
+			path = MZDotaTests;
+			sourceTree = "<group>";
+		};
+		A923AC961D676F7E00595E1F /* MZDotaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A923AC971D676F7E00595E1F /* MZDotaUITests.m */,
+				A923AC991D676F7E00595E1F /* Info.plist */,
+			);
+			path = MZDotaUITests;
+			sourceTree = "<group>";
+		};
+		A923ACB11D67815E00595E1F /* Discover */ = {
+			isa = PBXGroup;
+			children = (
+				A923ACB21D67815E00595E1F /* Controller */,
+				A923ACB31D67815E00595E1F /* Modle */,
+				A923ACB41D67815E00595E1F /* View */,
+			);
+			name = Discover;
+			path = MZDota/Discover;
+			sourceTree = "<group>";
+		};
+		A923ACB21D67815E00595E1F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A923ACD81D67827E00595E1F /* MZDiscoverViewController.h */,
+				A923ACD91D67827E00595E1F /* MZDiscoverViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A923ACB31D67815E00595E1F /* Modle */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Modle;
+			sourceTree = "<group>";
+		};
+		A923ACB41D67815E00595E1F /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A923ACB51D67816E00595E1F /* Forecast */ = {
+			isa = PBXGroup;
+			children = (
+				A923ACB61D67816E00595E1F /* Controller */,
+				A923ACB71D67816E00595E1F /* Modle */,
+				A923ACB81D67816E00595E1F /* View */,
+			);
+			name = Forecast;
+			path = MZDota/Forecast;
+			sourceTree = "<group>";
+		};
+		A923ACB61D67816E00595E1F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A923ACD51D67826900595E1F /* MZForecastViewController.h */,
+				A923ACD61D67826900595E1F /* MZForecastViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A923ACB71D67816E00595E1F /* Modle */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Modle;
+			sourceTree = "<group>";
+		};
+		A923ACB81D67816E00595E1F /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A923ACB91D67817800595E1F /* Live */ = {
+			isa = PBXGroup;
+			children = (
+				A923ACBA1D67817800595E1F /* Controller */,
+				A923ACBB1D67817800595E1F /* Modle */,
+				A923ACBC1D67817800595E1F /* View */,
+			);
+			name = Live;
+			path = MZDota/Live;
+			sourceTree = "<group>";
+		};
+		A923ACBA1D67817800595E1F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A923ACD21D67825300595E1F /* MZLiveViewController.h */,
+				A923ACD31D67825300595E1F /* MZLiveViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A923ACBB1D67817800595E1F /* Modle */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Modle;
+			sourceTree = "<group>";
+		};
+		A923ACBC1D67817800595E1F /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A923ACBD1D6781B400595E1F /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				A923ACBE1D6781B400595E1F /* Controller */,
+				A923ACC11D6781B400595E1F /* Modle */,
+				A923ACC21D6781B400595E1F /* View */,
+			);
+			name = Main;
+			path = MZDota/Main;
+			sourceTree = "<group>";
+		};
+		A923ACBE1D6781B400595E1F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A923ACBF1D6781B400595E1F /* MZTabBarController.h */,
+				A923ACC01D6781B400595E1F /* MZTabBarController.m */,
+				A923ACDB1D6783F000595E1F /* MZNavigationController.h */,
+				A923ACDC1D6783F000595E1F /* MZNavigationController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A923ACC11D6781B400595E1F /* Modle */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Modle;
+			sourceTree = "<group>";
+		};
+		A923ACC21D6781B400595E1F /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A923ACC41D6781CF00595E1F /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				A923ACC51D6781CF00595E1F /* Controller */,
+				A923ACC61D6781CF00595E1F /* Modle */,
+				A923ACC71D6781CF00595E1F /* View */,
+			);
+			name = Profile;
+			path = MZDota/Profile;
+			sourceTree = "<group>";
+		};
+		A923ACC51D6781CF00595E1F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A923ACCF1D67823E00595E1F /* MZProfileViewController.h */,
+				A923ACD01D67823E00595E1F /* MZProfileViewController.m */,
+				A923ACF91D6B042900595E1F /* MZMatchDetailsController.h */,
+				A923ACFA1D6B042900595E1F /* MZMatchDetailsController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A923ACC61D6781CF00595E1F /* Modle */ = {
+			isa = PBXGroup;
+			children = (
+				A923ACE81D685D7B00595E1F /* MZMatch.h */,
+				A923ACE91D685D7B00595E1F /* MZMatch.m */,
+				A923ACEE1D686C4700595E1F /* MZPlayer.h */,
+				A923ACEF1D686C4700595E1F /* MZPlayer.m */,
+				A923ACFC1D6B155B00595E1F /* MZMatchDetail.h */,
+				A923ACFD1D6B155B00595E1F /* MZMatchDetail.m */,
+				A984FC811D7043A300A5BE6D /* MZUser.h */,
+				A984FC821D7043A300A5BE6D /* MZUser.m */,
+			);
+			path = Modle;
+			sourceTree = "<group>";
+		};
+		A923ACC71D6781CF00595E1F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A923ACF41D6ACC7F00595E1F /* MZProfileCell.h */,
+				A923ACF51D6ACC7F00595E1F /* MZProfileCell.m */,
+				A923ACF71D6ACCD800595E1F /* MZProfileCell.xib */,
+				A923ACFF1D6B1AAD00595E1F /* MZMatchDetailCell.xib */,
+				A923AD011D6B1AE300595E1F /* MZMatchDetailCell.h */,
+				A923AD021D6B1AE300595E1F /* MZMatchDetailCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A923ACC81D6781E800595E1F /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				A923ACC91D6781E800595E1F /* Controller */,
+				A923ACCA1D6781E800595E1F /* Modle */,
+				A923ACCB1D6781E800595E1F /* View */,
+			);
+			name = Data;
+			path = MZDota/Data;
+			sourceTree = "<group>";
+		};
+		A923ACC91D6781E800595E1F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A923ACCC1D67822700595E1F /* MZDataViewController.h */,
+				A923ACCD1D67822700595E1F /* MZDataViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A923ACCA1D6781E800595E1F /* Modle */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Modle;
+			sourceTree = "<group>";
+		};
+		A923ACCB1D6781E800595E1F /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A923ACE11D68559400595E1F /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				A923ACE21D6858D000595E1F /* MZMatchHistoryTool.h */,
+				A923ACE31D6858D000595E1F /* MZMatchHistoryTool.m */,
+				A923ACEB1D6868BC00595E1F /* MZMatchDetailsTool.h */,
+				A923ACEC1D6868BC00595E1F /* MZMatchDetailsTool.m */,
+				A923AD151D6DA0C300595E1F /* MZHeroesAndItemsCacheTool.h */,
+				A923AD161D6DA0C300595E1F /* MZHeroesAndItemsCacheTool.m */,
+				A923AD121D6D9EF800595E1F /* MZHeroesAndItemsTool.h */,
+				A923AD131D6D9EF800595E1F /* MZHeroesAndItemsTool.m */,
+			);
+			name = Tool;
+			path = MZDota/Tool;
+			sourceTree = "<group>";
+		};
+		A923AD081D6D43EB00595E1F /* Catergory */ = {
+			isa = PBXGroup;
+			children = (
+				A923AD091D6D43EB00595E1F /* NSDate+date.h */,
+				A923AD0A1D6D43EB00595E1F /* NSDate+date.m */,
+			);
+			name = Catergory;
+			path = MZDota/Catergory;
+			sourceTree = "<group>";
+		};
+		E2493906E301AE51880F5020 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				68B2EBB8DA827A35588A5158 /* libPods-MZDota.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A923AC6E1D676F7E00595E1F /* MZDota */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A923AC9C1D676F7E00595E1F /* Build configuration list for PBXNativeTarget "MZDota" */;
+			buildPhases = (
+				32E9E4E73AE3248DCD23F2B7 /* [CP] Check Pods Manifest.lock */,
+				A923AC6B1D676F7E00595E1F /* Sources */,
+				A923AC6C1D676F7E00595E1F /* Frameworks */,
+				A923AC6D1D676F7E00595E1F /* Resources */,
+				B9293EEEBD58C39FF344C7FC /* [CP] Embed Pods Frameworks */,
+				DAE4255ED83F93283BA285EC /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MZDota;
+			productName = MZDota;
+			productReference = A923AC6F1D676F7E00595E1F /* MZDota.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A923AC871D676F7E00595E1F /* MZDotaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A923AC9F1D676F7E00595E1F /* Build configuration list for PBXNativeTarget "MZDotaTests" */;
+			buildPhases = (
+				A923AC841D676F7E00595E1F /* Sources */,
+				A923AC851D676F7E00595E1F /* Frameworks */,
+				A923AC861D676F7E00595E1F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A923AC8A1D676F7E00595E1F /* PBXTargetDependency */,
+			);
+			name = MZDotaTests;
+			productName = MZDotaTests;
+			productReference = A923AC881D676F7E00595E1F /* MZDotaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A923AC921D676F7E00595E1F /* MZDotaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A923ACA21D676F7E00595E1F /* Build configuration list for PBXNativeTarget "MZDotaUITests" */;
+			buildPhases = (
+				A923AC8F1D676F7E00595E1F /* Sources */,
+				A923AC901D676F7E00595E1F /* Frameworks */,
+				A923AC911D676F7E00595E1F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A923AC951D676F7E00595E1F /* PBXTargetDependency */,
+			);
+			name = MZDotaUITests;
+			productName = MZDotaUITests;
+			productReference = A923AC931D676F7E00595E1F /* MZDotaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A923AC671D676F7E00595E1F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = 134;
+				TargetAttributes = {
+					A923AC6E1D676F7E00595E1F = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 79K46ESXQD;
+					};
+					A923AC871D676F7E00595E1F = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 79K46ESXQD;
+						TestTargetID = A923AC6E1D676F7E00595E1F;
+					};
+					A923AC921D676F7E00595E1F = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 79K46ESXQD;
+						TestTargetID = A923AC6E1D676F7E00595E1F;
+					};
+				};
+			};
+			buildConfigurationList = A923AC6A1D676F7E00595E1F /* Build configuration list for PBXProject "MZDota" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A923AC661D676F7E00595E1F;
+			productRefGroup = A923AC701D676F7E00595E1F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A923AC6E1D676F7E00595E1F /* MZDota */,
+				A923AC871D676F7E00595E1F /* MZDotaTests */,
+				A923AC921D676F7E00595E1F /* MZDotaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A923AC6D1D676F7E00595E1F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A923AD001D6B1AAD00595E1F /* MZMatchDetailCell.xib in Resources */,
+				A923ACF81D6ACCD800595E1F /* MZProfileCell.xib in Resources */,
+				A923AC7F1D676F7E00595E1F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A923AC861D676F7E00595E1F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A923AC911D676F7E00595E1F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		32E9E4E73AE3248DCD23F2B7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B9293EEEBD58C39FF344C7FC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MZDota/Pods-MZDota-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DAE4255ED83F93283BA285EC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MZDota/Pods-MZDota-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A923AC6B1D676F7E00595E1F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A923ACF01D686C4700595E1F /* MZPlayer.m in Sources */,
+				A923ACFE1D6B155B00595E1F /* MZMatchDetail.m in Sources */,
+				A923AD0B1D6D43EB00595E1F /* NSDate+date.m in Sources */,
+				A923AC771D676F7E00595E1F /* AppDelegate.m in Sources */,
+				A984FC831D7043A300A5BE6D /* MZUser.m in Sources */,
+				A923ACCE1D67822700595E1F /* MZDataViewController.m in Sources */,
+				A923ACFB1D6B042900595E1F /* MZMatchDetailsController.m in Sources */,
+				A923ACDA1D67827E00595E1F /* MZDiscoverViewController.m in Sources */,
+				A923ACE41D6858D000595E1F /* MZMatchHistoryTool.m in Sources */,
+				A923AD031D6B1AE300595E1F /* MZMatchDetailCell.m in Sources */,
+				A923ACDD1D6783F000595E1F /* MZNavigationController.m in Sources */,
+				A923ACEA1D685D7B00595E1F /* MZMatch.m in Sources */,
+				A923ACD11D67823E00595E1F /* MZProfileViewController.m in Sources */,
+				A923ACC31D6781B400595E1F /* MZTabBarController.m in Sources */,
+				A923ACD71D67826900595E1F /* MZForecastViewController.m in Sources */,
+				A923AD171D6DA0C300595E1F /* MZHeroesAndItemsCacheTool.m in Sources */,
+				A923ACF61D6ACC7F00595E1F /* MZProfileCell.m in Sources */,
+				A923AC741D676F7E00595E1F /* main.m in Sources */,
+				A923ACD41D67825300595E1F /* MZLiveViewController.m in Sources */,
+				A923ACED1D6868BC00595E1F /* MZMatchDetailsTool.m in Sources */,
+				A923AD141D6D9EF800595E1F /* MZHeroesAndItemsTool.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A923AC841D676F7E00595E1F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A923AC8D1D676F7E00595E1F /* MZDotaTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A923AC8F1D676F7E00595E1F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A923AC981D676F7E00595E1F /* MZDotaUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A923AC8A1D676F7E00595E1F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A923AC6E1D676F7E00595E1F /* MZDota */;
+			targetProxy = A923AC891D676F7E00595E1F /* PBXContainerItemProxy */;
+		};
+		A923AC951D676F7E00595E1F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A923AC6E1D676F7E00595E1F /* MZDota */;
+			targetProxy = A923AC941D676F7E00595E1F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A923AC9A1D676F7E00595E1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A923AC9B1D676F7E00595E1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A923AC9D1D676F7E00595E1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 05E6B3A20FCADE63D7EEB0E2 /* Pods-MZDota.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = MZDota/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.itcast.MZDota;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "$(PODS_ROOT)/**";
+			};
+			name = Debug;
+		};
+		A923AC9E1D676F7E00595E1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 38F6235883E116305309A14A /* Pods-MZDota.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = MZDota/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.itcast.MZDota;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "$(PODS_ROOT)/**";
+			};
+			name = Release;
+		};
+		A923ACA01D676F7E00595E1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MZDotaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.itcast.MZDotaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MZDota.app/MZDota";
+			};
+			name = Debug;
+		};
+		A923ACA11D676F7E00595E1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MZDotaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.itcast.MZDotaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MZDota.app/MZDota";
+			};
+			name = Release;
+		};
+		A923ACA31D676F7E00595E1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MZDotaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.itcast.MZDotaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MZDota;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		A923ACA41D676F7E00595E1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MZDotaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.itcast.MZDotaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MZDota;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A923AC6A1D676F7E00595E1F /* Build configuration list for PBXProject "MZDota" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A923AC9A1D676F7E00595E1F /* Debug */,
+				A923AC9B1D676F7E00595E1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A923AC9C1D676F7E00595E1F /* Build configuration list for PBXNativeTarget "MZDota" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A923AC9D1D676F7E00595E1F /* Debug */,
+				A923AC9E1D676F7E00595E1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A923AC9F1D676F7E00595E1F /* Build configuration list for PBXNativeTarget "MZDotaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A923ACA01D676F7E00595E1F /* Debug */,
+				A923ACA11D676F7E00595E1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A923ACA21D676F7E00595E1F /* Build configuration list for PBXNativeTarget "MZDotaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A923ACA31D676F7E00595E1F /* Debug */,
+				A923ACA41D676F7E00595E1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A923AC671D676F7E00595E1F /* Project object */;
+}

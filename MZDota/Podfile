@@ -1,0 +1,10 @@
+platform:ios,'9.0'
+target:’MZDota’ do
+pod ‘FMDB’
+pod ‘AFNetworking’
+pod 'MJExtension'
+pod 'MJRefresh'
+pod 'MBProgressHUD'
+pod 'SDWebImage'
+end
+
